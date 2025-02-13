@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "ChatGPT Stats",
+    "name": "EcoAI",
     "version": "1.0",
     "description": "Display token usage and environmental impact stats for ChatGPT",
     "permissions": ["https://chat.openai.com/*"],
