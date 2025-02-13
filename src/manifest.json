@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "ChatGPT Stats",
+    "version": "1.0",
+    "description": "Display token usage and environmental impact stats for ChatGPT",
+    "permissions": ["https://chat.openai.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
+  
